@@ -39,7 +39,7 @@ In that case you need to add some featuers such as qr scaner for example to add 
 Of course adding this features you need to have already plan what you will use and what kind of privacy policy it will be look like. 
 
 
-*** For android I didn't have any problems that's why is wroten for ios but in future there will be the same thing. 
+*** For android I didn't have any problems but in future Play store might add the same thing so keep that in mind.
 
 ### Terms of service or Privacy Policy. 
 
