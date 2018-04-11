@@ -15,11 +15,15 @@ here is link to full article about it for goole play store: https://www.iubenda.
 
 (iOS)***
 
-When you need to access user device by the app. You need to descripe by informations what it will do (saves, reads, writes, modify)
+When you need to access user device by the app. You need to descripe by informations what it will do (saves, reads, writes, modify). Add text bellow to info.plist where Key      :  Privacy - Calendars Usage Description    
+
+Value  :
 
               This app wants to accces Calendar to save events.
               
 This message is clear and inform user that this app just want to save events without acccesing it after or reading informations from your calendar. (Accepted by the reviewers.)
+
+This is just example I wrote it here so I can use it in future.  The same when you use notifications, camera to scan qr codes or get permissions to read/write to gallery of user on device.
 
 
 ### Desing              
