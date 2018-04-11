@@ -1,4 +1,4 @@
-# PublishingApp
+# Publishing App in Apple Store or Google Play Store.
 How to prepare app to be successfully accepted by reviewers
 
 Mostly I published apps build in Ionic(Cordova Webview apps ak. Hybrid). Is more simply when you have to create one app on 2 diffrent system. In my case (iOS and Android never done it on Windows mobile).
@@ -12,12 +12,21 @@ For example it can be "access to gallery of user" it has to have permission and 
 
 here is link to full article about it for goole play store: https://www.iubenda.com/blog/warning-google-play-developer-policy-violation-action-required-policy-issue/
 
+
+(iOS)***
+
+When you need to access user device by the app. You need to descripe by informations what it will do (saves, reads, writes, modify)
+
+              This app wants to accces Calendar to save events.
               
+This message is clear and inform user that this app just want to save events without acccesing it after or reading informations from your calendar. (Accepted by the reviewers.)
+
+
 ### Desing              
 App has to act as native never as website. Build app in Webview makes app look like web apps not like native. Always try to do in the way from the smallest to the bigger. Apps doesn't need to have all features in one place hide it. Make user choose what he/she can do with the app. 
 
 
-### 4.2 Minimum Functionality (ios)
+### 4.2 Minimum Functionality (ios)  (android***)
 Once I sent app where we get informations from the web page of client Apple store Reviewers reject my app because it hasn't any native 
 functionality.
 
@@ -26,7 +35,56 @@ In that case you need to add some featuers such as qr scaner for example to add 
 Of course adding this features you need to have already plan what you will use and what kind of privacy policy it will be look like. 
 
 
+*** For android I didn't have any problems that's why is wroten for ios but in future there will be the same thing. 
+
 ### Terms of service or Privacy Policy. 
 
-Always try to have both. But don't reapet yourself and keep things clear. Otherwise it may cause you problems. 
+Always try to have both. But don't reapet yourself and keep things clear and divide important things on this two. Otherwise it may cause you problems. 
+
+
+### Screenshot, Splash, Icons.
+
+Before you publish your app you need to have screenshots to submit for review. 
+
+- For phones and tablets.
+- For iphones and ipads.
+
+I will not write here what size etc because those things always changes.
+
+Splash has also dimession you need to have on diffrent screens. Also I can't write what they are now because they change as well.
+Always try to have your image, content, text in the middle. 
+
+
+Ioncs.
+
+- For android it can be transparent.
+- For ios it can't be transparent. ( you need to upload one before you send to review).
+
+
+
+### HTTPS | HTTP | ENCRYPTION
+
+When you are accessing your server via http protocol and you have login via https you need to have Encryption Registration Number (ERN).
+Signing by USA Government where are the stores( apple store and play store).
+
+When you have those files you need to upload them in the stores. There is special section where it's all explained.
+
+link to article how to do it and what it is:
+https://medium.com/@cossacklabs/apple-export-regulations-on-crypto-6306380682e1
+
+But when you don't have any encryption and you use http in such app when wou getting data:
+
+On android just check that your app doesn't use encryption is when you fill form about about. First fill form when you creating app on store.
+
+In iOS put that text bellow in info.plist so when you sent the build the system will not reject your app:
+
+      <key>ITSAppUsesNonExemptEncryption</key><false/>
+      
+
+
+
+
+
+
+
 
