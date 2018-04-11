@@ -74,7 +74,7 @@ https://medium.com/@cossacklabs/apple-export-regulations-on-crypto-6306380682e1
 
 But when you don't have any encryption and you use http in such app when wou getting data:
 
-On android just check that your app doesn't use encryption is when you fill form about about. First fill form when you creating app on store.
+On android just check that your app doesn't use encryption is when you creating app on play store.
 
 In iOS put that text bellow in info.plist so when you sent the build the system will not reject your app:
 
