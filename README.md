@@ -5,6 +5,20 @@ Mostly I published apps build in Ionic(Cordova Webview apps ak. Hybrid). Is more
 
 But all are the same, screenshots, privacy, content, it's just another way to creating mobile apps using web features.
 
+## Overview
+
+  - [Privacy](###Privacy)
+  
+  - [Desing](###Desing)
+
+  - [Terms of service or Privacy Policy.](###Terms-of-service-or-Pivacy-Policy)
+  
+  - [Screenshot, Splash, Icons](###Screenshot-Splash-Icons)
+  
+  - [HTTPS | HTTP | ENCRYPTION](###HTTPS-HTTP-ENCRYPTION)
+ 
+
+
 ### Privacy
 If your app requests user data or makes sensitive permissions requests such as Phone, Accounts, Contacts, Camera, or Microphone, you’ll need to add a valid privacy policy in two places: your app’s Store Listing page (instructions below) and within your app.
 
