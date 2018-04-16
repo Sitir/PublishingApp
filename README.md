@@ -7,15 +7,15 @@ But all are the same, screenshots, privacy, content, it's just another way to cr
 
 ## Overview
 
-  - [Privacy](###Privacy)
+  - [Privacy](#Privacy)
   
-  - [Desing](###Desing)
+  - [Desing](#Desing)
 
-  - [Terms of service or Privacy Policy.](###Terms-of-service-or-Pivacy-Policy)
+  - [Terms of service or Privacy Policy.](#Terms-of-service-or-Pivacy-Policy)
   
-  - [Screenshot, Splash, Icons](###Screenshot-Splash-Icons)
+  - [Screenshot, Splash, Icons](#Screenshot-Splash-Icons)
   
-  - [HTTPS | HTTP | ENCRYPTION](###HTTPS-HTTP-ENCRYPTION)
+  - [HTTPS | HTTP | ENCRYPTION](#HTTPS-HTTP-ENCRYPTION)
  
 
 
